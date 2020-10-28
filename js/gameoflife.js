@@ -1,5 +1,5 @@
-function seed(...arr) {
-  return arguments;
+function seed() {
+  return Object.values(arguments);
 }
 
 function same([x, y], [j, k]) {}
